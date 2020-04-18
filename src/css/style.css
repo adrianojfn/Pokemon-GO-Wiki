@@ -11,19 +11,78 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-
 body {
     background-color: #CACFD6;
 }
-
 a {
     text-decoration: none;
+    color: #fff;
 }
-
 ul {
     list-style: none;
 }
-
 img {
     max-width: 100%;
+}
+/* CABEÇALHO */
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    background-color: #517664;
+}
+.logo {
+    width: 56px;
+    height: 56px;
+    float: left;
+    background: url(../img/logo-cabecalho.png) center center/56px no-repeat;
+    font-size: 0;
+}
+.btn-social {
+    width: 56px;
+    height: 56px;
+    float: right;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 56px;
+    background-color: #9FD8CB;
+}
+/* MENU SOCIAL */
+.menu-social {
+    display: none;
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .9);
+    top: 0;
+    left: 0;
+}
+.btn-close {
+    font-size: 3em;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.menu-social ul {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 25%;
+}
+.menu-social li {
+    padding: 2%;
+    font-size: 2em;
+    letter-spacing: 0.2em;
+}
+.menu-social i {
+    color: #fff;
+    margin-left: 2%;
+}
+.menu-social li a:hover {
+    background-color: #9FD8CB;
+    color: #000000;
+    padding: 2%;
 }
