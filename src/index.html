@@ -22,6 +22,15 @@
                 document.querySelector(".menu-social").style.display = "block"
             })
         })
+        function show_hide() {
+            var click = document.getElementById("navbar-dropdown")
+                if(click.style.display == "none") {
+                    click.style.display = "flex"
+                }
+                else {
+                    click.style.display = "none"
+                }
+        }
     </script>
 </head>
 <body>
@@ -37,5 +46,32 @@
             </ul>
         </nav>
     </header>
+
+    <div class="navbar">
+        <a class="item-navbar" href="pesquisas.html">
+            Pesquisas
+        </a>
+        <a class="item-navbar" href="ovos.html">
+            Ovos
+        </a>
+        <a class="item-navbar-central" onclick="show_hide()">
+            <i class="fas fa-plus fa-lg"></i>
+        </a>
+        <a class="item-navbar" href="reides.html">
+            Reides
+        </a>
+        <a class="item-navbar" href="tier-lists.html">
+            PvP/PvE
+        </a>
+    </div>
+    <div id="navbar-dropdown" style="display: none;">
+        <a class="item-dropdown" href="pokedex.html">
+            Pokedex
+        </a>
+        <a class="item-dropdown" href="go-rocket.html">
+            GO Rocket
+        </a>
+    </div>
+    
 </body>
 </html>

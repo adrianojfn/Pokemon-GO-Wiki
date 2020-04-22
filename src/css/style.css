@@ -7,7 +7,7 @@
     font-size: 100%;
     border: none;
     outline: none;
-    font-weight: 300;
+    font-weight: 400;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
@@ -85,4 +85,44 @@ img {
     background-color: #9FD8CB;
     color: #000000;
     padding: 2%;
+}
+/* NAVBAR COM DROPDOWN */
+.navbar {
+    display: flex;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(123, 185, 171);
+}
+.item-navbar {
+    width: 20%;
+    background-color: #9FD8CB;
+    padding: 2% 3%;
+    color: #000000;
+}
+.item-navbar-central {
+    width: 20%;
+    background-color: #9FD8CB;
+    padding: 2% 3%;
+    color: #000000;
+    cursor: pointer;
+    font-size: 1em;
+    border-left: 1px solid rgb(123, 185, 171);
+    border-right: 1px solid rgb(123, 185, 171);
+}
+#navbar-dropdown {
+    display: flex;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(123, 185, 171);
+    border-top: none;
+}
+.item-dropdown {
+    width: 50%;
+    background-color: rgb(144, 202, 189);
+    padding: 2% 3%;
+    color: #000000;
 }
