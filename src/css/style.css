@@ -30,6 +30,7 @@ img {
     float: left;
     padding: 3% 4%;
     background-color: #517664;
+    margin-bottom: 4%;
 }
 .logo {
     width: 56px;
@@ -37,6 +38,7 @@ img {
     float: left;
     background: url(../img/logo-cabecalho.png) center center/56px no-repeat;
     font-size: 0;
+    margin-left: -1%;
 }
 .btn-social {
     width: 56px;
@@ -47,11 +49,12 @@ img {
     cursor: pointer;
     border-radius: 56px;
     background-color: #9FD8CB;
+    margin-right: 1%;
 }
 /* MENU SOCIAL */
 .menu-social {
     display: none;
-    width: 80%;
+    width: 75%;
     height: 100%;
     position: fixed;
     background-color: rgba(0, 0, 0, .9);
@@ -75,7 +78,7 @@ img {
 .menu-social li {
     padding: 2%;
     font-size: 2em;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
 }
 .menu-social i {
     color: #fff;
@@ -98,12 +101,13 @@ img {
 .item-navbar {
     width: 20%;
     background-color: #9FD8CB;
-    padding: 2% 3%;
+    padding: 3% 1%;
     color: #000000;
+    font-size: 0.7em;
 }
 .item-navbar-central {
     width: 20%;
-    background-color: #9FD8CB;
+    background-color: #d6e5e3;
     padding: 2% 3%;
     color: #000000;
     cursor: pointer;
@@ -125,4 +129,58 @@ img {
     background-color: rgb(144, 202, 189);
     padding: 2% 3%;
     color: #000000;
+}
+/* MAIN */
+/* ASIDE */
+.hoje {
+    margin-top: 4%;
+}
+.hoje h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.painel-agora {
+    width: 90%;
+    background-color: #d6e5e3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    padding: 1% 2%;
+}
+.painel-em-breve {
+    width: 90%;
+    background-color: rgb(123, 185, 171);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1% 2%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+.agora {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(123, 185, 171);
+    padding: 3% 3%;
+}
+.agora h4 {
+    text-align: left;
+    font-weight: 700;
+}
+.agora p {
+    font-size: 0.7em;
+}
+.em-breve {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d6e5e3;
+    padding: 3% 3%;
+}
+.em-breve h4 {
+    text-align: left;
+    font-weight: 700;
+}
+.em-breve p {
+    font-size: 0.7em;
 }
