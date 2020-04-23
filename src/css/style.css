@@ -237,4 +237,28 @@ img {
     margin-left: 10%;
     margin-top: 3%;
 }
-
+/* RODAPÉ */
+.rodape {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    margin-top: 6%;
+    text-align: center;
+    background-color: #517664;
+}
+.logo-rodape {
+    margin-top: -10%;
+    margin-bottom: -9%;
+}
+.social-icons a {
+    font-size: 1.5em;
+    margin-right: 5%;
+}
+.social-icons a:last-child {
+    margin-right: 0%;
+}
+.copyright {
+    margin-top: 2%;
+    color: rgb(255, 255, 255);
+    font-size: 0.8em;
+}
