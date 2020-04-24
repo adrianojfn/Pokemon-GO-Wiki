@@ -106,6 +106,10 @@ img {
     color: #000000;
     font-size: 0.8em;
     border-right: 1px solid rgba(86, 86, 86, 0.25);
+    text-transform: uppercase;
+}
+.item-navbar:first-child {
+    width: 23%;
 }
 .item-navbar:last-child {
     border-right: none;
@@ -133,6 +137,7 @@ img {
     background-color: #e9e9e9;
     padding: 2% 3%;
     color: #000000;
+    text-transform: uppercase;
 }
 /* MAIN */
 /* ASIDE */
@@ -275,4 +280,44 @@ img {
     margin-top: 2%;
     color: rgb(255, 255, 255);
     font-size: 0.8em;
+}
+/* BREAKPOINTS */
+/* SMARTPHONES MIN-WIDHT: 360PX */
+@media screen and (min-width: 360px) {
+    .menu-social {
+        width: 83%;
+    }
+    .btn-close {
+        margin-right: 6%;
+        margin-top: 1%;
+    }
+    .menu-social li {
+        padding: 3%;
+        font-size: 2.5em;
+    }
+    .item-navbar {
+        padding: 3% 1%;
+        font-size: 1.0em;
+    }
+    .item-navbar:first-child {
+        width: 23%;
+    }
+    .item-navbar-central {
+        padding: 3% 1%;
+    }
+    .agora p {
+        font-size: 0.8em;
+    }
+    .em-breve p {
+        font-size: 0.8em;
+    }
+    .preview-artigo p {
+        font-size: 0.9em;
+    }
+    .btn-full-article {
+        font-size: 0.9em;
+    }
+    .copyright {
+        font-size: 0.9em;
+    }
 }
