@@ -374,3 +374,64 @@ img {
         font-size: 1.0em;
     }
 }
+/* TABLETS MIN-WIDHT: 768PX */
+@media screen and (min-width: 768px) {
+    .btn-social {
+        font-size: 1.5em;
+    }
+    .btn-social:hover {
+        font-size: 0px;
+    }
+    .menu-social {
+        width: 100%;
+    }
+    .menu-social ul {
+        margin-top: 10%;
+    }
+    .menu-social li {
+        padding: 3%;
+        font-size: 3.5em;
+        letter-spacing: 0.1em;
+    }
+    .menu-social i {
+        margin-left: 3%;
+    }
+    .item-navbar {
+        font-size: 1.3em;
+    }
+    .item-navbar-central {
+        font-size: 1.2em;
+        line-height: normal;
+    }
+    .painel-agora h4 {
+        font-size: 1.4em;
+    }
+    .painel-em-breve h4 {
+        font-size: 1.4em;
+    }
+    .agora h4 {
+        font-size: 1.2em;
+    }
+    .agora p {
+        font-size: 1.0em;
+    }
+    .em-breve h4 {
+        font-size: 1.2em;
+    }
+    .em-breve p {
+        font-size: 1.0em;
+    }
+    .painel-ultimas-noticias h4 {
+        font-size: 1.4em;
+    }
+    .logo-rodape {
+        margin-top: -6%;
+        margin-bottom: -9%;
+    }
+    .social-icons {
+        margin-top: 5%;
+    }
+    .social-icons a {
+        font-size: 1.9em;
+    }
+}
