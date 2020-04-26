@@ -52,7 +52,7 @@ img {
 .btn-social:hover {
     font-size: 1.5em;
 }
-/* MENU SOCIAL */
+/* MENU SOCIAL ATÉ 960PX */
 .menu-social {
     display: none;
     width: 80%;
@@ -89,6 +89,21 @@ img {
     background-color: #9FD8CB;
     color: #000000;
     padding: 2%;
+}
+/* MENU SOCIAL */
+.desktop-social {
+    display: none !important;
+    float: right;
+    display: flex;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.1em;
+    margin-right: 5%;
+    margin-top: 0.2%;
+}
+.desktop-social a {
+    margin-right: 10%;
+    cursor: pointer;
 }
 /* NAVBAR COM DROPDOWN */
 .navbar {
@@ -267,7 +282,9 @@ img {
 }
 .logo-rodape {
     margin-top: -10%;
-    margin-bottom: -9%;
+}
+.social-icons {
+    margin-top: -10%;
 }
 .social-icons a {
     font-size: 1.5em;
@@ -370,6 +387,13 @@ img {
     .btn-full-article {
         font-size: 1.0em;
     }
+    .logo-rodape {
+        margin-bottom: none;
+        margin-top: -8%;
+    }
+    .social-icons {
+        margin-top: -5%;
+    }
     .copyright {
         font-size: 1.0em;
     }
@@ -433,5 +457,47 @@ img {
     }
     .social-icons a {
         font-size: 1.9em;
+    }
+}
+/* TABLETS & DESKTOPS MIN-WIDHT: 960PX */
+@media screen and (min-width: 960px) {
+    .btn-social {
+        display: none;
+    }
+    .desktop-social {
+        display: flex !important;
+    }
+    .navbar {
+        display: flex;
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid rgba(86, 86, 86, 0.25);
+    }
+    .item-navbar {
+        width: 16.6666666667%;
+        font-size: 1.4em;
+        border-right: 1px solid rgba(86, 86, 86, 0.25);
+        text-transform: uppercase;
+    }
+    .item-navbar:first-child {
+        width: 16.6666666667%;
+    }
+    .item-navbar-desktop {
+        display: block !important;
+        width: 16.6666666667%;
+        background-color: #ffffff;
+        padding: 3% 1%;
+        color: #000000;
+        font-size: 1.4em;
+        border-right: 1px solid rgba(86, 86, 86, 0.25);
+        text-transform: uppercase;
+    }
+    .item-navbar-central {
+        display: none;
+    }
+    #navbar-dropdown {
+        display: none !important;
     }
 }
