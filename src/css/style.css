@@ -501,3 +501,140 @@ img {
         display: none !important;
     }
 }
+/* DESKTOPS MIN-WIDHT: 1280PX */
+@media screen and (min-width: 1280px) {
+    br {
+        display: block !important;
+    }
+    .cabecalho {
+        padding: 2% 4%;
+    }
+    .logo {
+        width: 64px;
+        height: 64px;
+        background: url(../img/logo-cabecalho.png) center center/64px no-repeat;
+        margin-left: 1%;
+    }
+    .desktop-social {
+        font-size: 2.5em;
+        line-height: 64px;
+        margin-right: 7%;
+    }
+    .desktop-social a {
+        margin-right: 20%;
+    }
+    .item-navbar {
+        width: 14.2857142857%;
+        font-size: 1.5em;
+        padding: 1% 1%;
+    }
+    .item-navbar:first-child {
+        width: 14.2857142857%;
+    }
+    .item-desktop-inicio {
+        display: block !important;
+        width: 14.2857142857%;
+        background-color: #ffffff;
+        padding: 1% 1%;
+        color: #000000;
+        font-size: 1.5em;
+        border-right: 1px solid rgba(86, 86, 86, 0.25);
+        text-transform: uppercase;
+    }
+    .item-navbar-desktop {
+        width: 14.2857142857%;
+        padding: 1% 1%;
+        font-size: 1.5em;
+    }
+    .img-navbar {
+        width: 48px;
+        height: 48px;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline !important;
+    }
+    /* ASIDE */
+    .hoje {
+        margin-top: 25%;
+        float: right;
+        width: 20%;
+        margin-right: 5%;
+    }
+    .painel-agora {
+        width: 100%;
+    }
+    .painel-em-breve {
+        width: 100%;
+    }
+    .agora {
+        width: 100%;
+    }
+    .agora p {
+        font-size: 0.8em;
+    }
+    .em-breve {
+        width: 100%;
+    }
+    .em-breve p {
+        font-size: 0.8em;
+    }
+    /* SECTION */
+    .painel-ultimas-noticias {
+        width: 67%;
+        margin-left: 5%;
+        float: left;
+    }
+    .container-artigos {
+        width: 67%;
+        margin-top: 1%;
+        margin-left: 5%;
+        float: left;
+    }
+    .preview-artigo h2 {
+        font-size: 1.3em;
+    }
+    .preview-artigo p {
+        font-size: 1.0em;
+    }
+    .conteudo-preview {
+        width: 80%;
+    }
+    .data-artigo {
+        display: block !important;
+        width: 35%;
+        background-color: #dadada;
+        color: #585858;
+        padding: 0% 1%;
+        margin-bottom: 1%;
+        text-align: center;
+    }
+    .img-preview {
+        display: block !important;
+        width: 18%;
+        float: right;
+        margin-top: 6%;
+    }
+    .btn-full-article {
+        font-size: 0.9em;
+        width: 40%;
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+    .btn-full-article:hover {
+        background-color: transparent;
+        border: 1px solid #585858;
+    }
+    .logo-rodape {
+        margin-top: -5%;
+    }
+    .social-icons {
+        margin-top: 6%;
+        margin-bottom: -2%;
+    }
+    .social-icons a {
+        font-size: 2.3em;
+    }
+    .copyright {
+        margin-top: 2%;
+    }
+}
