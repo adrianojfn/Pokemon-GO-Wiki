@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de dicas e novidades sobre o jogo Pokémon GO">
+    <meta name="keywords" content="Dicas, Novidades, Pokemon GO">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Adriano França">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,400;0,700;1,200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/25c0615b0a.js" crossorigin="anonymous"></script>
+    <title>Pokémon GO Wiki | Ovos</title>
+
+    <script>
+        window.addEventListener("load", function() {
+            document.querySelector(".btn-close").addEventListener("click", function() {
+                document.querySelector(".menu-social").style.display = "none"
+            })
+            document.querySelector(".btn-social").addEventListener("click", function() {
+                document.querySelector(".menu-social").style.display = "block"
+            })
+        })
+        function show_hide() {
+            var click = document.getElementById("navbar-dropdown")
+                if(click.style.display == "none") {
+                    click.style.display = "flex"
+                }
+                else {
+                    click.style.display = "none"
+                }
+        }
+    </script>
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html"><h1 class="logo">Pokémon GO Wiki</h1></a>
+        <div class="desktop-social">
+            <a class="icon-social-desktop" href="https://facebook.com/adrianojfn" target="_blank"><i class="fab fa-facebook-square fa-lg"></i></a>
+            <a class="icon-social-desktop" href="https://github.com/adrianojfn" target="_blank"><i class="fab fa-github-square fa-lg"></i></a>
+            <a class="icon-social-desktop" href="https://twitter.com/adrianojfn" target="_blank"><i class="fab fa-twitter-square fa-lg"></i></a>
+        </div>
+        <button class="btn-social" onclick="show_social"><i class="fas fa-bars fa-lg"></i></button>
+        <nav class="menu-social">
+            <a class="btn-close"><i class="fas fa-times-circle"></i></a>
+            <ul>
+                <li><a href="https://facebook.com/adrianojfn" target="_blank">Facebook</a><i class="fab fa-facebook-square fa-lg"></i></li>
+                <li><a href="https://github.com/adrianojfn" target="_blank">GitHub</a><i class="fab fa-github-square fa-lg"></i></li>
+                <li><a href="https://twitter.com/adrianojfn" target="_blank">Twitter</a><i class="fab fa-twitter-square fa-lg"></i></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="navbar">
+        <a class="item-navbar" href="pokedex.html">
+            <img class="img-navbar" src="./img/pokedex-navbar.png" alt="Icone Pokedex" style="display: none;"> <br style="display: none;">
+            Pokedex
+        </a>
+        <a class="item-navbar-desktop" href="pesquisas.html" style="display: none;">
+            <img class="img-navbar" src="./img/pesquisas-navbar.png" alt="Icone Pesquisas" style="display: none;"> <br style="display: none;">
+            Pesquisas
+        </a>
+        <a class="item-navbar" href="ovos.html">
+            <img class="img-navbar" src="./img/ovos-navbar.png" alt="Icone Ovos" style="display: none;"> <br style="display: none;">
+            Ovos
+        </a>
+        <a class="item-navbar-central" onclick="show_hide()">
+            <i class="fas fa-plus fa-lg"></i>
+        </a>
+        <a class="item-desktop-inicio" href="index.html" style="display: none;">
+            <img class="img-navbar" src="./img/snorlax.png" alt="Icone GO Rocket" style="display: none;"> <br style="display: none;">
+            Início
+        </a>
+        <a class="item-navbar" href="reides.html">
+            <img class="img-navbar" src="./img/reides-navbar.png" alt="Icone Reides" style="display: none;"> <br style="display: none;">
+            Reides
+        </a>
+        <a class="item-navbar" href="tier-lists.html">
+            <img class="img-navbar" src="./img/pvp-pve-navbar.png" alt="Icone PvP/PvE" style="display: none;"> <br style="display: none;">
+            PvP/PvE
+        </a>
+        <a class="item-navbar-desktop" href="go-rocket.html" style="display: none;">
+            <img class="img-navbar" src="./img/go-rocket-navbar.png" alt="Icone GO Rocket" style="display: none;"> <br style="display: none;">
+            GO Rocket
+        </a>
+    </div>
+    <div id="navbar-dropdown" style="display: none;">
+        <a class="item-dropdown" href="pesquisas.html">
+            Pesquisas
+        </a>
+        <a class="item-dropdown" href="go-rocket.html">
+            GO Rocket
+        </a>
+    </div>
+
+    <footer class="rodape">
+        <div class="logo-rodape">
+            <a href="index.html"><img src="./img/logo-rodape.png" alt="Logo Rodapé" width="150px" height="150px"></a>
+        </div>
+        <div class="social-icons">
+            <a href="https://facebook.com/adrianojfn" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/adrianojfn" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/adrianojfn" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:adriano.franca@etec.sp.gov.br" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="copyright">
+            Copyright © 2020 - Adriano França
+            <br>
+            Pokémon and Pokémon GO are copyright of The Pokémon Company, Niantic, Inc., and Nintendo. All trademarked images and names are property of their respective owners, and any such material is used on this site for educational purposes only.
+        </p>
+    </footer>
+</body>
+</html>
