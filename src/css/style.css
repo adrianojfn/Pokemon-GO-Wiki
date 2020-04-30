@@ -506,6 +506,7 @@ img {
     br {
         display: block !important;
     }
+    /* CABEÇALHO */
     .cabecalho {
         padding: 2% 4%;
     }
@@ -523,10 +524,14 @@ img {
     .desktop-social a {
         margin-right: 20%;
     }
+    /* NAVBAR */
     .item-navbar {
         width: 14.2857142857%;
         font-size: 1.5em;
         padding: 1% 1%;
+    }
+    .item-navbar:hover {
+        background-color: #cccccc;
     }
     .item-navbar:first-child {
         width: 14.2857142857%;
@@ -541,10 +546,16 @@ img {
         border-right: 1px solid rgba(86, 86, 86, 0.25);
         text-transform: uppercase;
     }
+    .item-desktop-inicio:hover {
+        background-color: #cccccc;
+    }
     .item-navbar-desktop {
         width: 14.2857142857%;
         padding: 1% 1%;
         font-size: 1.5em;
+    }
+    .item-navbar-desktop:hover {
+        background-color: #cccccc;
     }
     .img-navbar {
         width: 48px;
@@ -624,6 +635,7 @@ img {
         background-color: transparent;
         border: 1px solid #585858;
     }
+    /* RODAPÉ */
     .logo-rodape {
         margin-top: -5%;
     }
