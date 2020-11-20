@@ -1,3 +1,3 @@
 # Pokemon GO Wiki
 
-Site com intuito educativo, feito para treinar habilidades em HTML5, CSS e posteriormete JavaScript. Sempre utilizando a técnica Mobile First no desenvolvimento.
+Educational site, designed to train skills in HTML5, CSS3 and later JavaScript. Always using the Mobile First technique in development.
