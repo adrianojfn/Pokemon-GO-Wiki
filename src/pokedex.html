@@ -8,30 +8,12 @@
     <meta name="robots" content="index, follow">
     <meta name="author" content="Adriano França">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pokedex.css">
     <link rel="icon" href="img/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,400;0,700;1,200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/25c0615b0a.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
     <title>Pokémon GO Wiki | Pokédex</title>
-
-    <script>
-        window.addEventListener("load", function() {
-            document.querySelector(".btn-close").addEventListener("click", function() {
-                document.querySelector(".menu-social").style.display = "none"
-            })
-            document.querySelector(".btn-social").addEventListener("click", function() {
-                document.querySelector(".menu-social").style.display = "block"
-            })
-        })
-        function show_hide() {
-            var click = document.getElementById("navbar-dropdown")
-                if(click.style.display == "none") {
-                    click.style.display = "flex"
-                }
-                else {
-                    click.style.display = "none"
-                }
-        }
-    </script>
 </head>
 <body>
     <header class="cabecalho">
@@ -93,6 +75,36 @@
             GO Rocket
         </a>
     </div>
+
+    <main>
+        <aside class="sidebar-pokedex">
+            <div class="painel-em-alta">
+                <h4>Em alta</h4>
+            </div>
+                <div class="em-alta">
+                    <a href="" class="artigos-em-alta">
+                        <span class="numero-ranking-em-alta">1.</span>
+                        <span class="titulo-ranking-em-alta">Passe de Reide Remoto</span>
+                    </a>
+                    <a href="" class="artigos-em-alta">
+                        <span class="numero-ranking-em-alta">2.</span>
+                        <span class="titulo-ranking-em-alta">Ingresso: Investigando Ilusões</span>
+                    </a>
+                    <a href="" class="artigos-em-alta">
+                        <span class="numero-ranking-em-alta">3.</span>
+                        <span class="titulo-ranking-em-alta">Hora de Pokémon: Abril</span>
+                    </a>
+                    <a href="" class="artigos-em-alta">
+                        <span class="numero-ranking-em-alta">4.</span>
+                        <span class="titulo-ranking-em-alta">Alteração no fortalecimento (PC)</span>
+                    </a>
+                    <a href="" class="artigos-em-alta">
+                        <span class="numero-ranking-em-alta">5.</span>
+                        <span class="titulo-ranking-em-alta">Ranking Mundial: GO Battle</span>
+                    </a>
+                </div>
+        </aside>
+    </main>
 
     <footer class="rodape">
         <div class="logo-rodape">

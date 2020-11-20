@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* MAIN */
+/* ASIDE */
+.sidebar-pokedex {
+    margin-top: 4%;
+}
+.painel-em-alta {
+    width: 90%;
+    background-color:#517664;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    padding: 1% 2%;
+    border-radius: 3px;
+    color: #ffffff;
+}
+.painel-em-alta h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.em-alta {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.artigos-em-alta {
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid rgba(86, 86, 86, 0.25);
+    height: 20%;
+    color: #585858;
+    padding: 0% 2%;
+}
+.numero-ranking-em-alta {
+    font-size: 2.5em;
+    margin-right: 2%;
+}
+.titulo-ranking-em-alta {
+    color: #689981;
+    font-size: 1.0em;
+    
+}
